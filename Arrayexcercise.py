@@ -21,8 +21,7 @@ def remove_num(array):
     if (num == number_to_delete):
       array.remove(num)
 
-#1-d) Determinar si el contenido de una lista cualquiera es capicúa, 
-#sin usar listas auxiliares.
+#check is the array is palindromic
 
 def is_palindromic(vec):
     cont = 0
@@ -39,11 +38,7 @@ if __name__ == "__main__":
   print("Esta es una lista random:")
   array = get_random_array()
   print(array)
-
   print("La sumatoria de todos los elementos es: %d" % get_sum(array))
-
-  # Esto se puede hacer porque lista es mutable (cambia cuando la pasas dentro de la funcion)
-  
   remove_num(array)
   print("The array without the number is: ",array)
   

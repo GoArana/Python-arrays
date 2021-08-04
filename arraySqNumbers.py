@@ -1,6 +1,5 @@
-# Crear una lista con los cuadrados de los números entre 1 y N (ambos incluidos),
-# donde N se ingresa desde el teclado. Luego se solicita imprimir los últimos 10 valores
-# de la lista.
+# Create an array with the square roots numbers between 1 and N 
+# N is input from the user, and he can choose to print N last numbers from the same array
 
 import math
 N=int(input("Input a number: " ))

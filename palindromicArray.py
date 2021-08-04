@@ -4,7 +4,7 @@ def generate_array():
   elements = random.randint(5,5)
   array = []
   for i in range(elements):
-        array.append(random.randint(3,5))
+        array.append(random.randint(1,5))
   return array
 
 def is_palindromic(vec):

@@ -1,0 +1,1 @@
+milista.sort(key=lambda x:x%10) #ordenar por ultimo digito
